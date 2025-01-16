@@ -54,8 +54,8 @@ const updateTask = async () => {
 }
 
 const reset = async () => {
-    taskForm.value.task_name = null;
-    taskForm.value.description = null;
+    taskForm.value.task_name = '';
+    taskForm.value.description = '';
     task.value = null;
     isEdit.value = false;
 }
